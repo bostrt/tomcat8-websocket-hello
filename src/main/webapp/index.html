@@ -23,7 +23,7 @@
             var websocket = null;
 
             function connect() {
-                var wsURI = 'ws://' + window.location.host + '/tomcat-websocket-hello/websocket/helloName';
+                var wsURI = 'ws://' + window.location.host + '/tomcat-websocket-hello/websocket';
                 websocket = new WebSocket(wsURI);
 
                 websocket.onopen = function() {
